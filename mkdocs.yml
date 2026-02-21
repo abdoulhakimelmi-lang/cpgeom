@@ -1,1 +1,11 @@
-site_name : mon site chef de projet géomatique
+
+site_name: CPGeom Documentation
+theme:
+  name: material
+
+plugins:
+  - search
+  - awesome-pages
+  - minify
+  - git-revision-date-localized
+  - mermaid2

@@ -1,0 +1,108 @@
+    1  sudo apt wget
+    2  sudo apt install wget
+    3  exit
+    4  sudo apt wget
+    5  sudo apt update
+    6  sudo apt install wget
+    7  sudo apt install curl
+    8  sudo apt install gdal-bin
+    9  ogr2ogr --help
+   10  sudo apt update && sudo apt upgrade -y
+   11  sudo apt install -y docker.io docker-compose git
+   12  sudo systemctl enable --now docker
+   13  sudo usermod -aG docker $USER
+   14  docker --version
+   15  cd /opt
+   16  sudo git clone https://github.com/3liz/docker-lizmap.git
+   17  sudo chown -R $USER:$USER docker-lizmap
+   18  cd docker-lizmap
+   19  sudo apt install -y unzip
+   20  cd /opt
+   21  sudo wget -O docker-lizmap.zip https://codeload.github.com/3liz/docker-lizmap/zip/refs/heads/master
+   22  sudo unzip docker-lizmap.zip
+   23  sudo mv docker-lizmap-master docker-lizmap
+   24  sudo rm docker-lizmap.zip
+   25  sudo chown -R $USER:$USER docker-lizmap
+   26  cd docker-lizmap
+   27  sudo rm -rf docker-lizmap*
+   28  cd /opt
+   29  sudo wget -O docker-lizmap.zip https://github.com/3liz/docker-lizmap/archive/refs/heads/master.zip
+   30  sudo unzip docker-lizmap.zip
+   31  sudo mv docker-lizmap-master docker-lizmap
+   32  sudo rm docker-lizmap.zip
+   33  sudo chown -R $USER:$USER docker-lizmap
+   34  cd docker-lizmap
+   35  duo rm -rf docker
+   36  docker -- version 
+   37  docker -compose --version
+   38  git --version
+   39  ll
+   40  cd /mnt/h/cpgeom_docs/
+   41  ls -la
+   42  git init
+   43  git status
+   44  python3 --version
+   45  sudo apt install python3-venv
+   46  sudo apt install python3-pip
+   47  sudo apt install python3-venv
+   48  sudo apt install python3-pip
+   49  sudo apt update
+   50  sudo apt upgrade -y
+   51  sudo apt install python3-pip
+   52  pip3 --version
+   53  python3 -m venv .venv
+   54  source .venv/bin/activate
+   55  pip install mkdocs
+   56  touch mkdocs.yml
+   57  mkdocs serve
+   58  git remote add origin https://github.com/abdoulhakimelmi-lang/cpgeom.git
+   59  git branch -M main
+   60  git push -u origin main
+   61  git add *
+   62  git commit -m "pmon"
+   63  git branch -M main
+   64  git remote add origin https://github.com/abdoulhakimelmi-lang/cpgeom.git
+   65  git push -u origin main
+   66  ls
+   67  git add .
+   68  git commit -m "premier commit"
+   69  git branch -M main
+   70  git push -u origin main
+   71  git config --global --list
+   72  git config --global user.name "Abdoulhakim Elmi"
+   73  git config --global user.email "abdoulhakim.elmi@gmail.com"
+   74  git config --global --list
+   75  git add .
+   76  git commit -m "premier commit"
+   77  git branch -M main
+   78  git push -u origin main
+   79  mkdocs gh-deploy
+   80  history
+   81  history > mon_history.txt
+   82  history > /home/mon_history.txt
+   83  pip install mkdocs-material
+   84  pip uninstall mkdocs
+   85  pip install mkdocs==1.4.4
+   86  mkdocs serve
+   87  pip install mkdocs-awesome-pages-plugin
+   88  pip install mkdocs==1.4.4
+   89  pip uninstall mkdocs
+   90  pip install mkdocs==1.4.4
+   91  pip uninstall mkdocs
+   92  pip install mkdocs==1.4.3
+   93  pip install mkdocs-material==9.2.0
+   94  mkdocs --version
+   95  mkdocs serve
+   96  pip install mkdocs-awesome-pages-plugin
+   97  mkdocs serve
+   98  pip list | grep mkdocs
+   99  pip install mkdocs-minify-plugin
+  100  pip list | grep minify
+  101  mkdocs-minify-plugin 0.5.0
+  102  mkdocs serve
+  103  pip install mkdocs-git-revision-date-localized-plugin
+  104  mkdocs serve
+  105  pip install mkdocs-mermaid2-plugin
+  106  pip list | grep mermaid
+  107  mkdocs serve
+  108  history > mon_history3.txt
