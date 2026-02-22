@@ -1,19 +1,54 @@
+site_name: "CPGeom Docs"
+site_url: ""
+site_author: "Abdoulhakim"
+site_description: "Documentation SIG et géomatique"
+repo_url: ""  # URL de ton dépôt GitHub si tu en as un
+repo_name: "GitHub"
 
-site_name: CPGeom Documentation
+# Thème Material avec clair/sombre
 theme:
   name: material
+  palette:
+    - scheme: default   # Clair
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Mode sombre
+    - scheme: slate     # Sombre
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Mode clair
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: images/logo.png   # mettre ton logo si tu veux
+  favicon: images/favicon.ico
 
+# Plugins
 plugins:
   - search
-  - awesome-pages
-  - minify
-  - git-revision-date-localized
-  - mermaid2
   - section-index
 
+# Navigation (exemple à adapter)
+nav:
+  - Accueil: index.md
+  - Git: git.md
+  - Juridique: juri.md
+  - Sources: sources.md
+
+# Extensions Markdown
 markdown_extensions:
   - admonition
   - codehilite
-  - pymdownx.superfences
-  - pymdownx.tabbed
-  - pymdownx.details
+  - footnotes
+  - toc:
+      permalink: true
+
+# Configuration du serveur local
+dev_addr: 127.0.0.1:8000
+
+# Options diverses
+strict: true
