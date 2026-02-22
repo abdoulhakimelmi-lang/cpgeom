@@ -9,3 +9,11 @@ plugins:
   - minify
   - git-revision-date-localized
   - mermaid2
+  - section-index
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
